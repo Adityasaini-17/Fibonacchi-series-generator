@@ -58,6 +58,8 @@ btn_fibonacci.grid(row=3, column=0, pady=10,sticky=EW)
 text_box = Text(root, width=40, height=10, font=("Arial", 12))
 text_box.grid(row=5, column=0, columnspan=2, padx=10, pady=10)
 
+
+
 btn_stop = Button(root, text="Stop", font=("Arial", 15), command=stop)
 btn_stop.grid(row=6, column=0, pady=10, sticky=EW)
 
